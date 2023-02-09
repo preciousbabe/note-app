@@ -1,0 +1,54 @@
+.register{
+    height:calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+rgb(225, 225, 225, 0.5),rgb(225, 225, 225, 0.5)
+    ), url("https://images.unsplash.com/photo-1561198379-7ef247721ff9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1vY2t1cHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.registertitle{
+    font-size: 50px;
+}
+.registerform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerform > label{
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: 'poppins','san-serif';
+}
+.registerform > ::placeholder{
+    font-size: 15px;
+}
+.registerinput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerbtn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.loginbutton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    color: white;
+    border: none;
+}

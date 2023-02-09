@@ -1,0 +1,73 @@
+.setting{
+    display: flex;
+}
+.settingwrapper{
+    flex: 9;
+    padding: 20px;
+}
+.settingtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settingupdate{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:lightsalmon;
+}
+.settingdelete{
+    color: red;
+    cursor: pointer;
+    font-size: 14px;
+}
+.settingform{
+    display: flex;
+flex-direction: column;
+}
+.settingpp{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.settingppimg{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.settingppicon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color:lightsalmon;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.settingform > label{
+     font-size: 20px;
+    margin-top: 20px;
+}
+.settingform > input{
+    color:#777;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgrey;
+}
+.settingsubmit{
+    width: 150px;
+    background-color:lightsalmon;
+    color: #fff;
+    font-size: 16px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}

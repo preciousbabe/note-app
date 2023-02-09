@@ -1,0 +1,51 @@
+.personalpost{
+    flex: 9;
+}
+.personalpostwrapper{
+    padding: 20px;
+    padding-right: 0;
+}
+.personalpostimg{
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+    margin:10px;
+    object-fit: cover;
+}
+.personalpostitle{
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+}
+.personalpostedit{
+    float: right;
+    font-size: 16px;
+}
+.personalposticon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.personalposticon:first-child{
+    color: dodgerblue;
+}
+.personalposticon:last-child{
+    color: tomato;
+}
+.personalpostinfo{
+    margin-bottom: 20px;
+    display: flex;
+     justify-content: space-between;
+     color: #b39656;
+     font-size: 16px;
+}
+.personalpostdesc{
+    color: #666;
+    font-size: 18px;
+     font-family: 'poppins', 'san-serif';
+    line-height: 30px;
+}
+.personaldesc::first-letter{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
